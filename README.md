@@ -1,25 +1,20 @@
-# gpt-tv-facct
+# gpt-tv-facct24
 
-## Link to paper and explanation of file structure and code
+## Link to paper
 
-## Intended use of data
-
-## Proposed Schema
+## Schema
 
 | Column Name | Source   | Explanation |
 | :---:       | :---:    | :---:       |
 | Metadata     | IMDb episode page   | ...   |
 | Synopses | source | ... |
-| Real scripts | multiple sources | ... |
 | API Responses     | GPT API Platform - model xx  | ...   |
-| ME Responses (prompt, individual source) | GPT API Platform - `text-moderation-007` | ... |
+| ME Responses (prompt, individual source) | GPT API Platform - `text-moderation-006` | ... |
 
-## Info about access
-Where? When?
+## COLLECTION & PREP
+Where? When? EXAMPLE of a link where data can be found, explanation in paper
+anonymized vs not
+include figure
 
-## Preprocessing
-
-## Discussion of potential fallbacks of representation in the data ?
-
-## Copyright info / distribution and access discussion ?
+## filestructure and instructions to run audit
 
