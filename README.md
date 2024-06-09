@@ -28,18 +28,16 @@
 | API_response_short_descs      | GPT API\*   | List of GPT Responses for Short Synopsis Prompt       |
 | API_response_wiki_descs     | GPT API\*    | List of GPT Responses for Medium Synopsis Prompt  |
 | API_response_imdb_descs     | GPT API\*    | List of GPT Responses for Long Synopsis Prompt  |
-| ME_short_descs | GPT API - `text-moderation-006` | List of Moderation Endpoint Outputs for Short Synopsis **GPT Response** |
-| ME_wiki_descs | GPT API - `text-moderation-006` | List of Moderation Endpoint Outputs for Medium Synopsis **GPT Response** |
-| ME_imdb_descs | GPT API - `text-moderation-006` | List of Moderation Endpoint Outputs for Long Synopsis **GPT Response** |
 | ME_short_descs_prompt | GPT API - `text-moderation-006` | List of Moderation Endpoint Outputs for Short Synopsis **Prompt** |
 | ME_wiki_descs_prompt | GPT API - `text-moderation-006` | List of Moderation Endpoint Outputs for Short Synopsis **Prompt** |
 | ME_imdb_descs_prompt | GPT API - `text-moderation-006` | List of Moderation Endpoint Outputs for Short Synopsis **Prompt** |
-| Metadata     | IMDb episode page   | ...   |
-| Synopses | source | ... |
-| API Responses     | GPT API Platform - model xx  | ...   |
-| ME Responses (prompt, individual source) | GPT API Platform - `text-moderation-006` | ... |
+| ME_short_descs | GPT API - `text-moderation-006` | List of Moderation Endpoint Outputs for Short Synopsis **GPT Response**\*\* |
+| ME_wiki_descs | GPT API - `text-moderation-006` | List of Moderation Endpoint Outputs for Medium Synopsis **GPT Response**\*\* |
+| ME_imdb_descs | GPT API - `text-moderation-006` | List of Moderation Endpoint Outputs for Long Synopsis **GPT Response**\*\* |
 
 \*for the file labeled _-3.5.csv_, the model used is GPT-3.5 (`gpt3.5-turbo-1106`), and for the file labeled _-4.0.csv_, the model used is GPT-4.0 (`gpt-4.0-1106-preview`).
+
+\*\*in file labeled _-3.5.csv_, this list includes repeated runs of the ME on both the first and the second GPT API response from the `API_response_short_descs`, `API_response_wiki_descs`, and `API_response_imdb_descs` columns.
 
 ## COLLECTION & PREP
 Shows selected from IMDb's [Top 100 TV Shows of All Time](https://web.archive.org/web/20231104142125/https://www.imdb.com/list/ls095964455/) list. This dataset contains each episode in S1 of each of these 100 shows, with a total of 1,392 unique episodes. Further information about data collection, anonymization, and preparation is discussed in [the associated paper](https://dl.acm.org/doi/10.1145/3630106.3658932).
