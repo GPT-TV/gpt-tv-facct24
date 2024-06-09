@@ -2,6 +2,8 @@
 
 ## Associated Research Paper: [Auditing GPT's Content Moderation Guardrails: Can ChatGPT Write Your Favorite TV Show?](https://dl.acm.org/doi/10.1145/3630106.3658932)
 
+This GitHub repository provides the software pipeline to run the audit of ChatGPT's content moderation endpoint as discussed in the research paper and the associated dataset of 1,392 television episodes. The pipeline can be used to run the same audit using the dataset provided in this repository or on a new dataset.
+
 ## SCHEMA
 
 | Column Name | Source   | Explanation |
