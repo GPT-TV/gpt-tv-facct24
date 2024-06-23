@@ -60,6 +60,7 @@ See **Figure 1** below for a clear outline of the audit pipeline, lifted from [t
 
 ## FILESTRUCTURE
 Dataset (compressed): `gpt_tv_database.zip`
+
 Pipeline code: `run_gpt_api.py`, `run_openai_ME.py` 
 
 
